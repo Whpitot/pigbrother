@@ -1,0 +1,19 @@
+[
+    {
+        "table": "expense",
+        "records": [{
+            "id": 1,
+            "creator": "windy",
+            "create_at": "2018-05-11 16:29:21",
+            "modifier": "windy",
+            "modify_at": "2016-05-11 16:29:21",
+            "family_id":1,
+            "family_code":"windy_family",
+            "family_name":"windy的一家家",
+            "item":"apple",
+            "customer":"windy",
+            "money":300,
+            "type": "fruits"                              
+        }]
+    }
+]

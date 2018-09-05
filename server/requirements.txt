@@ -1,0 +1,6 @@
+Flask == 1.0.2
+flask-sqlalchemy == 2.3.2
+flask-cors == 3.0.6
+marshmallow == 2.15.4
+logbook == 1.4.0
+flask-restless = 0.17.0
