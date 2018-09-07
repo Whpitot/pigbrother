@@ -1,6 +1,5 @@
 # coding:utf-8
-from marshmallow import Schema, fields
-from marshmallow import fields
+from marshmallow import Schema
 
 class ExpenseSchema(Schema):
     

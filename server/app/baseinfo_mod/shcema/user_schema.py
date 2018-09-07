@@ -1,11 +1,12 @@
 # coding:utf-8
 from marshmallow import Schema
 
-class FamilySchema(Schema):
+class ExpenseSchema(Schema):
     
     class Meta:
         additional=(
             'id', 'create_at', 'creator', 'modify_at', 'modifier', 
-            'code', 'name_cn', 'member_qty', 'signation'
+            'family_id','family_code','family_name',
+            'code', 'name_cn', 'signation', 'password'
             )
       
