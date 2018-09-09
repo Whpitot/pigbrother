@@ -9,6 +9,8 @@ from db import db
 from flask_restless import APIManager
 from app.baseinfo_mod.api.expense_api import create_expense_blueprint
 from app.baseinfo_mod.api.family_api import create_family_blueprint
+from app.baseinfo_mod.api.user_api import create_user_blueprint
+
 
 def create_app():    
     app = Flask(__name__)   # 第一个参数是模块或者包的名字，参数是必须的
@@ -24,5 +26,6 @@ def create_app():
     restless_api_manager = APIManager(app, flask_sqlalchemy_db = db)    
     create_family_blueprint(restless_api_manager)   
     create_expense_blueprint(restless_api_manager) 
+    create_user_blueprint(restless_api_manager)
 
     return app    

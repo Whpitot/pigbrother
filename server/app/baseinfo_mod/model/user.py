@@ -4,7 +4,7 @@ from db import db
 from app.baseinfo_mod.model.base_entity import BaseEntity
 
 class User(BaseEntity, db.Model):
-    __tablename__ = 'expense'
+    __tablename__ = 'user'
 
     family_id = db.Column(db.Integer)
     family_code = db.Column(db.String(50))
